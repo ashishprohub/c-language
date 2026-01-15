@@ -10,9 +10,14 @@ int main(){
     int j;
     printf("Enter the number whose sum of table to find:",j);
     scanf("%d",&j);
-    for(int i =1; i <= 10; i++){
-        sum +=i;
+    // for(int i =1; i <= 10; i++){
+    //     sum +=i;
+    // }
+    // or
+    for( int i=1; i<=10; i++){
+        sum += (j*i);
     }
-    printf("Sum of table of %d is %d",j,sum*j);
+    printf("Sum of table of %d is %d",j,sum);
+    // printf("Sum of table of %d is %d",j,sum*j);
     return 0;
 }
